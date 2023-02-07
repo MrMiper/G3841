@@ -1,6 +1,8 @@
 ﻿// // Напишите программу, которая принимает 2 числа и выводит, является ли одно число квадратом второго
 Console.WriteLine("Введите первое число");
+// Вводим первое число
 int num1 = int.Parse(Console.ReadLine()??"0");
+// Вводим второе число
 Console.WriteLine("Введите второе число");
 int num2 = int.Parse(Console.ReadLine()??"0");
 
@@ -19,6 +21,7 @@ int num2 = int.Parse(Console.ReadLine()??"0");
 //       Console.WriteLine("Не квадрат");
 // }
 // }
+//Проводим тест является ли первое число квадратом второго и наоборот
 TestSQRT(num1, num2);
 TestSQRT(num2, num1);
 void TestSQRT(int i, int j)
